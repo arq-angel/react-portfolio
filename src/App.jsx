@@ -14,7 +14,7 @@ function App() {
       <input id="darkMode" type="checkbox" />
 
       <div className="wrapper">
-        <label for="darkMode">
+        <label htmlFor="darkMode">
           <i className="fa-solid fa-circle-half-stroke"></i>
         </label>
 
@@ -38,12 +38,6 @@ function App() {
 
         {/* <!-- footer section --> */}
         <Footer />
-
-        <a href="#hero">
-          <div className="goUp flex-center">
-            <i className="fa-solid fa-chevron-up"></i>
-          </div>
-        </a>
       </div>
       {/* <!-- fontawesome scripts --> */}
     </>
